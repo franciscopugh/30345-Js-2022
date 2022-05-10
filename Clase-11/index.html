@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <div class="mb-3">
+              <label for="idNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" name="nombre" id="idNombre">
+            </div>
+            <div class="mb-3">
+                <label for="idMarca" class="form-label">Marca</label>
+                <input type="text" class="form-control" name="marca" id="idMarca">
+              </div>
+              <div class="mb-3">
+                <label for="idPrecio" class="form-label">Precio</label>
+                <input type="number" class="form-control" name="precio" id="idPrecio">
+              </div>
+              <div class="mb-3">
+                <label for="idStock" class="form-label">Stock</label>
+                <input type="number" class="form-control" name="stock" id="idStock">
+              </div>
+            <button type="submit" class="btn btn-dark">Crear Producto</button>
+          </form>
+    </div><br><br>
+    <button id="botonProductos" class="btn btn-danger">Mostrar Productos</button>
+    <div class="row container" id="divProductos"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
