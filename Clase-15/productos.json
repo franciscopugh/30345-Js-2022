@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    },
+    {
+        "id": 2,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    },
+    {
+        "id": 3,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    },
+    {
+        "id": 5,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    },
+    {
+        "id": 6,
+        "nombre": "Arroz",
+        "marca": "Arrocito",
+        "Precio": "100",
+        "stock": 20
+    }
+
+]
